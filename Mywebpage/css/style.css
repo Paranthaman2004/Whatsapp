@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Alata', sans-serif;
+    min-height: 100vh;
+    max-width: 100%;
+    background-color: white;
+}
+
+
+/*navbar section*/
+
+.nav_container {
+    display: flex;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    height: 35px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 98%;
+    z-index: 100;
+}
+
+.nav_container h1 {
+    padding-left: 30px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+
+.nav_container span {
+    color: orangered;
+    font-size: 35px;
+}
+
+.nav_container ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+}
+
+.nav_container ul li {
+    padding: 0px 3px 0px 3px;
+    margin: 0px 18px 0px 18px;
+    align-items: center;
+    text-align: center;
+}
+
+.nav_container ul li:hover {
+    color: orangered;
+    transition: all 0.4s ease-in-out;
+}
+
+.nav_container button {
+    height: 40px;
+    width: 110px;
+    cursor: pointer;
+    background-color: orangered;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Alata', sans-serif;
+    border: 1.5px solid orangered;
+}
+
+button:hover {
+    background-color: white;
+    transition: all 0.4s ease-in-out;
+    color: orangered;
+}
+
+.nav_container a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Home */
+
+.resume_container {
+    padding-left: 10px;
+    line-height: .5rem;
+    letter-spacing: 1px;
+    margin-top: 80px;
+}
+
+.resume_container .detail {
+    text-indent: 20px;
+    padding-top: 3px;
+    line-height: .5rem;
+}
+
+img {
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    z-index: -1;
+}
+
+.resume_container .detail {
+    line-height: 3px;
+}
+
+.detail p {
+    font-size: small;
+}
+
+.detail .per {
+    text-indent: 60px;
+    line-height: 1rem;
+}
+
+.detail .per .do {
+    text-indent: 137px;
+}
+
+.detail .per .ad {
+    text-indent: 103px;
+}
+
+.detail .per .ad2 {
+    text-indent: 200px;
+}
+
+.detail .per .ad3 {
+    text-indent: 200px;
+}
+
+.detail .edu {
+    text-indent: 60px;
+    line-height: 1rem;
+}
+
+.detail .ski {
+    padding-left: 10px;
+    line-height: .5rem;
+    letter-spacing: 1px;
+}
+
+.detail .ski {
+    text-indent: 50px;
+    padding-top: 3px;
+    line-height: 1rem;
+}
+
+.detail .contact {
+    padding-left: 10px;
+    line-height: .5rem;
+    letter-spacing: 1px;
+    text-indent: 50px;
+    padding-top: 3px;
+    line-height: 1rem;
+}
